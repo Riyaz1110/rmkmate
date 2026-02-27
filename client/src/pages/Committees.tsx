@@ -719,6 +719,11 @@ export default function Committees() {
         <li>Dr. Erfan Babaee Tirkolaee, Istinye University, Istanbul, Turkey</li>
         <li>Dr. Eugene Pek Chuen Khee, Taylor's Business School, Malaysia</li>
         <li>Dr. Sharon Goh Wei Wei, School of Computing Science, Taylor’s University, Malaysia</li>
+        <li>Dr Sathishkumar V.E Senior Lecturer, Sunway University – Malaysia </li>
+        <li>Dr Javid Iqbal, Senior Lecturer, Sunway University - Malaysia</li>
+        <li>Dr. Maria Lapina is an Associate Professor North Caucasus Federal University - Russia</li>
+        <li>Dr. Sergey Yarushev, Director of the Centre for Advanced Research in Artificial Intelligence, Plekhanov University,Russia</li>
+        <li>Senny Luckyardi, Director of International Program - UNIKOM , Indonesia</li>
       </ul>
     </div>
 
