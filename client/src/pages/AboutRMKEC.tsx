@@ -236,8 +236,9 @@ export default function AboutRMKEC() {
       </div>
     </div>
     <div className="mt-24">
+
   <SectionHeader
-    title="Management Committee"
+    title="Management Team"
     subtitle="Leadership & Governance"
   />
 
@@ -245,176 +246,153 @@ export default function AboutRMKEC() {
 
     {/* Chairperson */}
     <div className="grid md:grid-cols-2 gap-10 items-center">
+      <div className="flex justify-center">
+        <img
+          src={manju}
+          alt="Tmt. Manjula Munirathinam"
+          className="w-64 md:w-72 rounded-2xl shadow-lg object-contain"
+        />
+      </div>
 
-  <div className="w-full flex justify-center">
-    <img
-      src={manju}
-      alt="Tmt. Manjula Munirathinam"
-      className="w-full max-w-md rounded-2xl shadow-xl object-contain"
-    />
-  </div>
-
-  <div>
-    <h2 className="text-3xl font-bold">
-      Tmt. Manjula Munirathinam, Chairperson
-    </h2>
-
-    <hr className="my-4 border-gray-300" />
-
-    <p className="text-muted-foreground leading-relaxed text-lg">
-      A keen social worker involved with various women forums.
-      She has been in the educational field for more than a decade.
-    </p>
-  </div>
-
-</div>
+      <div>
+        <h2 className="text-3xl font-bold">
+          Tmt. Manjula Munirathinam, Chairperson
+        </h2>
+        <hr className="my-4 border-gray-300" />
+        <p className="text-muted-foreground leading-relaxed text-lg">
+          A keen social worker involved with various women forums.
+          She has been in the educational field for more than a decade.
+        </p>
+      </div>
+    </div>
 
     <hr className="border-gray-300" />
 
     {/* Director */}
     <div className="grid md:grid-cols-2 gap-10 items-center">
+      <div className="flex justify-center">
+        <img
+          src={jothi}
+          alt="Thiru. R. Jothi Naidu"
+          className="w-64 md:w-72 rounded-2xl shadow-lg object-contain"
+        />
+      </div>
 
-  <div className="flex justify-center">
-    <img
-      src={jothi}
-      alt="Thiru. R. Jothi Naidu"
-      className="w-full max-w-md rounded-2xl shadow-xl object-contain"
-    />
-  </div>
-
-  <div>
-    <h2 className="text-3xl font-bold">
-      Thiru. R. Jothi Naidu, Director
-    </h2>
-
-    <hr className="my-4 border-gray-300" />
-
-    <p className="text-muted-foreground leading-relaxed text-lg">
-      An industrialist with vast experience in various business lines.
-      He has been associated with the Management of R.M.K. Group of Institutions
-      for the past 29 years.
-    </p>
-  </div>
-
-</div>
+      <div>
+        <h2 className="text-3xl font-bold">
+          Thiru. R. Jothi Naidu, Director
+        </h2>
+        <hr className="my-4 border-gray-300" />
+        <p className="text-muted-foreground leading-relaxed text-lg">
+          An industrialist with vast experience in various business lines.
+          He has been associated with the Management of R.M.K. Group of Institutions
+          for the past 29 years.
+        </p>
+      </div>
+    </div>
 
     <hr className="border-gray-300" />
 
     {/* Vice Chairman */}
     <div className="grid md:grid-cols-2 gap-10 items-center">
+      <div className="flex justify-center">
+        <img
+          src={kishore}
+          alt="Thiru. R.M. Kishore"
+          className="w-64 md:w-72 rounded-2xl shadow-lg object-contain"
+        />
+      </div>
 
-  <div className="flex justify-center">
-    <img
-      src={kishore}
-      alt="Thiru. R.M. Kishore"
-      className="w-full max-w-md rounded-2xl shadow-xl object-contain"
-    />
-  </div>
-
-  <div>
-    <h2 className="text-3xl font-bold">
-      Thiru. R.M. Kishore, Vice Chairman
-    </h2>
-
-    <hr className="my-4 border-gray-300" />
-
-    <p className="text-muted-foreground leading-relaxed text-lg">
-      Mechanical Engineer from University of Madras with MBA from
-      University of Huddersfield, UK. Served as Syndicate Member in
-      Anna University and Chairman of Education & Skill Expert Committee.
-    </p>
-  </div>
-
-</div>
+      <div>
+        <h2 className="text-3xl font-bold">
+          Thiru. R.M. Kishore, Vice Chairman
+        </h2>
+        <hr className="my-4 border-gray-300" />
+        <p className="text-muted-foreground leading-relaxed text-lg">
+          Mechanical Engineer from University of Madras with MBA from
+          University of Huddersfield, UK. Served as Syndicate Member in
+          Anna University and Chairman of Education & Skill Expert Committee.
+        </p>
+      </div>
+    </div>
 
     <hr className="border-gray-300" />
 
     {/* Secretary */}
     <div className="grid md:grid-cols-2 gap-10 items-center">
+      <div className="flex justify-center">
+        <img
+          src={pradeep}
+          alt="Thiru. Yalamanchi Pradeep"
+          className="w-64 md:w-72 rounded-2xl shadow-lg object-contain"
+        />
+      </div>
 
-  <div className="flex justify-center">
-    <img
-      src={pradeep}
-      alt="Thiru. Yalamanchi Pradeep"
-      className="w-full max-w-md rounded-2xl shadow-xl object-contain"
-    />
-  </div>
-
-  <div>
-    <h2 className="text-3xl font-bold">
-      Thiru. Yalamanchi Pradeep, Secretary
-    </h2>
-
-    <hr className="my-4 border-gray-300" />
-
-    <p className="text-muted-foreground leading-relaxed text-lg">
-      Electronics & Communication Engineer from Anna University.
-      Master’s in Information Systems from Carnegie Mellon University, USA.
-      Founder & Managing Director of Kranium Healthcare Systems Pvt Ltd.
-    </p>
-  </div>
-
-</div>
+      <div>
+        <h2 className="text-3xl font-bold">
+          Thiru. Yalamanchi Pradeep, Secretary
+        </h2>
+        <hr className="my-4 border-gray-300" />
+        <p className="text-muted-foreground leading-relaxed text-lg">
+          Electronics & Communication Engineer from Anna University.
+          Master’s in Information Systems from Carnegie Mellon University, USA.
+          Founder & Managing Director of Kranium Healthcare Systems Pvt Ltd.
+        </p>
+      </div>
+    </div>
 
     <hr className="border-gray-300" />
 
     {/* Vice Chairperson */}
     <div className="grid md:grid-cols-2 gap-10 items-center">
+      <div className="flex justify-center">
+        <img
+          src={durga}
+          alt="Dr. Durga Devi Pradeep"
+          className="w-64 md:w-72 rounded-2xl shadow-lg object-contain"
+        />
+      </div>
 
-  <div className="flex justify-center">
-    <img
-      src={durga}
-      alt="Dr. Durga Devi Pradeep"
-      className="w-full max-w-md rounded-2xl shadow-xl object-contain"
-    />
-  </div>
-
-  <div>
-    <h2 className="text-3xl font-bold">
-      Dr. Durga Devi Pradeep, Vice Chairperson
-    </h2>
-
-    <hr className="my-4 border-gray-300" />
-
-    <p className="text-muted-foreground leading-relaxed text-lg">
-      Bachelor’s Degree in Electronics and Communication Engineering
-      from University of Madras. MBA and Ph.D. in Management from Anna University.
-    </p>
-  </div>
-
-</div>
+      <div>
+        <h2 className="text-3xl font-bold">
+          Dr. Durga Devi Pradeep, Vice Chairperson
+        </h2>
+        <hr className="my-4 border-gray-300" />
+        <p className="text-muted-foreground leading-relaxed text-lg">
+          Bachelor’s Degree in Electronics and Communication Engineering
+          from University of Madras. MBA and Ph.D. in Management from Anna University.
+        </p>
+      </div>
+    </div>
 
     <hr className="border-gray-300" />
 
     {/* Trustee */}
     <div className="grid md:grid-cols-2 gap-10 items-center">
+      <div className="flex justify-center">
+        <img
+          src={sowmya}
+          alt="Tmt. Sowmya Kishore"
+          className="w-64 md:w-72 rounded-2xl shadow-lg object-contain"
+        />
+      </div>
 
-  <div className="flex justify-center">
-    <img
-      src={sowmya}
-      alt="Tmt. Sowmya Kishore"
-      className="w-full max-w-md rounded-2xl shadow-xl object-contain"
-    />
-  </div>
-
-  <div>
-    <h2 className="text-3xl font-bold">
-      Tmt. Sowmya Kishore, Trustee
-    </h2>
-
-    <hr className="my-4 border-gray-300" />
-
-    <p className="text-muted-foreground leading-relaxed text-lg">
-      Bachelor’s Degree in Electronics and Communication Engineering
-      from Sathyabama University. Master’s in Psychology and Counselling.
-      Currently pursuing Ph.D. in Psychology.
-    </p>
-  </div>
-
-</div>
+      <div>
+        <h2 className="text-3xl font-bold">
+          Tmt. Sowmya Kishore, Trustee
+        </h2>
+        <hr className="my-4 border-gray-300" />
+        <p className="text-muted-foreground leading-relaxed text-lg">
+          Bachelor’s Degree in Electronics and Communication Engineering
+          from Sathyabama University. Master’s in Psychology and Counselling.
+          Currently pursuing Ph.D. in Psychology.
+        </p>
+      </div>
+    </div>
 
   </div>
 </div>
+  
 
       </div>
     </div>

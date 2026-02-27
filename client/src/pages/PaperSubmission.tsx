@@ -108,7 +108,7 @@ export default function PaperSubmission() {
             {[
               { label: "Full Paper Submission - Deadline", date: "10.03.2026" },
               { label: "Notification of Acceptance", date: "31.03.2026" },
-              { label: "Last Date For Register", date: "10.04.2026" },
+              { label: "Last Date For Registration", date: "10.04.2026" },
             ].map((d) => (
               <Card
                 key={d.label}

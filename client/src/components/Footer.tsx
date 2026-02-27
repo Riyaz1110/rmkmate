@@ -107,7 +107,7 @@ export function Footer() {
                 <span className="font-medium text-white">Mar 31, 2026</span>
               </li>
               <li className="flex justify-between items-center border-b border-white/10 pb-2">
-                <span className="text-slate-400">Final Paper Submission</span>
+                <span className="text-slate-400">Last Date For Registration</span>
                 <span className="font-medium text-white">Apr 10, 2026</span>
               </li>
               <li className="flex justify-between items-center border-b border-white/10 pb-2">

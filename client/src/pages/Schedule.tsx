@@ -50,7 +50,7 @@ export default function Schedule() {
                 color: "from-purple-600 to-violet-700"
               },
               {
-                label: "Last Date For Register",
+                label: "Last Date For Registration",
                 date: "10.04.2026",
                 color: "from-emerald-600 to-green-700"
               }
