@@ -77,7 +77,7 @@ export default function Home() {
                 </p> */}
 
                 {/* Accreditation Details */}
-                <p className="mt-3 text-xs md:text-base font-bold text-gray-300 max-w-5xl leading-relaxed px-4">
+                <p className="mt-3 text-xs md:text-base font-bold text-white max-w-5xl leading-relaxed px-4">
                   R.S.M. NAGAR, KAVARAIPETTAI, GUMMIDIPOONDI TALUK, THIRUVALLUR DIST – 601 206<br/>
                   Affiliated to Anna University, Chennai / APPROVED BY AICTE, New Delhi /
                   Accredited by NAAC with A+ Grade / ISO 9001:2015 Certified Institution /
@@ -121,7 +121,7 @@ export default function Home() {
           </p>
 
           {/* Date & Location */}
-          <div className="flex flex-wrap justify-center gap-8 mt-8 text-white/80 text-lg">
+          <div className="flex flex-wrap justify-center gap-8 mt-8 text-white font-semibold text-lg">
             <div className="flex items-center gap-2">
               <Calendar className="text-primary" />
               15–16 April 2026

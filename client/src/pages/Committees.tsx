@@ -35,7 +35,7 @@ import naveen from "@/assets/naveen.png"
 import vijay from "@/assets/vijay.png"
 import therasa from "@/assets/thera.png"
 import lakshmi from "@/assets/haritha.png"
-import geethaR from "@/assets/geetha.png"
+import geethaR from "@/assets/geetha2.png"
 import vasuki from "@/assets/vasuki.png"
 import chithambaramani from "@/assets/chithambaram.png"
 
@@ -54,7 +54,7 @@ import sumitha from "@/assets/sumitha.png"
 import ilampiray from "@/assets/ilam.png"
 import sajithra from "@/assets/saji.png"
 import velmurugesh from "@/assets/vel.png"
-
+import abitha from "@/assets/abitha.png"
 import bharathi from "@/assets/bharathi.png"
 import rohini from "@/assets/rohini.png"
 import nandhini from "@/assets/nandhini.png"
@@ -78,92 +78,92 @@ const members = [
     name: "Thiru. R.S. Munirathinam",
     role: "Chief Patron",
     img: chief,
-    intro: "Founder & Chairman of RMK Group of Institutions"
+    intro: "Founder & Chairman - R.M.K Group of Institutions"
   },
   {
     name: "Smt. Manjula Munirathinam",
     role: "Patron",
     img: manjula,
-    intro: "Chairperson - RMK Group of Institutions"
+    intro: "Chairperson - R.M.K Group of Institutions"
   },
   {
     name: "Shri. R. Jothi Naidu",
     role: "Patron",
     img: jothi,
-    intro: "Director - RMK Group of Institutions"
+    intro: "Director - R.M.K Group of Institutions"
   },
   {
     name: "Shri. R.M. Kishore",
     role: "Patron",
     img: kishore,
-    intro: "Vice-Chairman - RMK Group of Institutions"
+    intro: "Vice-Chairman - R.M.K Group of Institutions"
   },
   {
     name: "Shri. Yalamanchi Pradeep",
     role: "Patron",
     img: yalamanchi,
-    intro: "Secretary - RMK Group of Institutions"
+    intro: "Secretary - R.M.K Group of Institutions"
   },
   {
     name: "Dr. Durgadevi Pradeep",
     role: "Patron",
     img: durgadevi,
-    intro: "Vice-Chairperson - RMK Group of Institutions"
+    intro: "Vice-Chairperson - R.M.K Group of Institutions"
   },
   {
     name: "Smt. Sowmya Kishore",
     role: "Patron",
     img: sowmya,
-    intro: "Management Trustee - RMK Group of Institutions"
+    intro: "Management Trustee - R.M.K Group of Institutions"
   },
   {
     name: "Dr. M. S. Palanichamy",
     role: "Advisor",
     img: palani,
-    intro: "RMK Group of Institutions"
+    intro: "R.M.K Group of Institutions"
   },
   {
     name: "Shri. T. Pitchandi I.A.S",
     role: "Advisor",
     img: pitchandi,
-    intro: "RMK Group of Institutions"
+    intro: "R.M.K Group of Institutions"
   },
   {
     name: "Shri. V. Manoharan",
     role: "Advisor",
     img: mono,
-    intro: "RMK Group of Institutions"
+    intro: "R.M.K Group of Institutions"
   },
   {
     name: "Dr. K. A. Mohamed Junaid",
     role: "Principal",
     img: junaid,
-    intro: "RMK Engineering College"
+    intro: "R.M.K Engineering College"
   },
   {
     name: "Dr. Elwin Chandra Monie",
     role: "Dean - Research",
     img: elwin,
-    intro: "RMK Group of Institutions"
+    intro: "R.M.K Group of Institutions"
   },
  
   {
     name: "Dr. K. K. Sivagnana Prabhu",
     role: "Dean - CDC",
     img: siva,
-    intro: "RMK Group of Institutions"
+    intro: "R.M.K Group of Institutions"
   },
   {
     name: "Dr. K. Manivannan",
     role: "Dean - EA",
     img: mani,
-    intro: "RMK Group of Institutions"
+    intro: "R.M.K Group of Institutions"
   },
    {
     name: "Dr. S. Pavai Madheshwari",
     role: "Dean - Academics",
     img: pavai,
-    intro: "RMK Engineering Colege"
+    intro: "R.M.K Engineering Colege"
   },
   
   
@@ -214,6 +214,12 @@ const organisingCommittee = [
     degree: "M.E., Ph.D.",
     role: "Professor",
     img: geetha
+  },
+  {
+    name: "Dr. Abitha Kumari",
+    degree: "M.E., Ph.D.",
+    role: "Professor",
+    img: abitha
   },
   {
   name: "Dr. Thilagavathy A",
@@ -570,7 +576,7 @@ export default function Committees() {
         Dr. K.A. Mohamed Junaid
       </h3>
       <p className="text-base text-gray-600 mt-2">
-        Principal - RMK Engineering College
+        Principal - R.M.K Engineering College
       </p>
     </Card>
   </div>
@@ -679,55 +685,72 @@ export default function Committees() {
 <section className="mt-24 bg-white rounded-3xl shadow-lg p-10">
 
   <SectionHeader
-    title="International & National Committee Members"
+    title="International & National Advisory Committees"
     subtitle="Expert Panel and Academic Advisors"
   />
 
-  <div className="grid md:grid-cols-2 gap-12">
+  <div className="grid md:grid-cols-2 gap-12 mt-12">
 
-    {/* ===== International ===== */}
+    {/* ===== International Advisory Committee ===== */}
     <div>
-      <h3 className="text-xl font-bold text-primary mb-6">
-        International Committee Members
+      <h3 className="text-2xl font-bold text-primary mb-6">
+        International Advisory Committee
       </h3>
 
-      <ul className="space-y-4 text-sm text-gray-700">
-        <li><b>Dr. Naresh Chand</b> — Life Fellow IEEE, Associate Vice President, Chapter Relations, IEEE Photonics Society, USA</li>
-        <li><b>Dr. San Murugesan</b> — Director, BRITE Professional Services, Adjunct Professor, Western Sydney University, Australia</li>
-        <li><b>Dr. Ahmad Asari Sulaiman</b> — Professor, Universiti Teknologi MARA (UiTM), Malaysia</li>
-        <li><b>Dr. Celestine Iwendi</b> — Fellow Higher Education Academy, UK</li>
-        <li><b>Dr. Krishnadas Nanath</b> — Associate Professor in Data Science, Middlesex University, Dubai</li>
-        <li><b>Dr. Ashish Seth</b> — Professor, INHA University, South Korea</li>
-        <li><b>Dr. Mohammad T. Khasawneh</b> — Professor, Systems Science & Industrial Engineering, USA</li>
-        <li><b>Dr. Yong Wang</b> — Assistant Professor, Thomas J. Watson College, USA</li>
+      <ul className="space-y-3 text-sm text-gray-700 leading-relaxed">
+        <li>Dr. Naresh Chand, IEEE Photonics Society, New Jersey, USA</li>
+        <li>Dr. San Murugesan, Director, BRITE Professional Services, Western Sydney University, Australia</li>
+        <li>Dr. Ahmad Asari Sulaiman, Professor, Universiti Teknologi MARA (UiTM), Malaysia</li>
+        <li>Dr. Celestine Iwendi, Associate Professor, Bangor College of Central South University, China</li>
+        <li>Dr. Krishnadas Nanath, Associate Professor, Corporate, Middlesex University, Dubai</li>
+        <li>Dr. Ashish Seth, Professor, School of Global Convergence Studies, INHA University, South Korea</li>
+        <li>Dr. Mohammad T. Khasawneh, Professor, Department of Systems Science & Industrial Engineering, State University of New York at Binghamton, USA</li>
+        <li>Dr. Daniel Chandran, Professor, Faculty of Engineering and IT, University of Technology Sydney, Australia</li>
+        <li>Dr. Ziming Zhao, Department of CSE, School of Engineering and Applied Sciences, University at Buffalo, New York</li>
+        <li>Dr. Sanjay Kumar Madria, Department of Computer Science, Missouri University of Science and Technology, USA</li>
+        <li>Dr. Hui Xiong, University of New Jersey, USA</li>
+        <li>Dr. Enumi Choi, Professor, Kookmin University, South Korea</li>
+        <li>Dr. Ari Happonen, LUT University, Finland</li>
+        <li>Dr. Deepak Kumar Jain, Dalian University of Technology, China</li>
+        <li>Dr. Sathishkumar V.E., Sunway University, Malaysia</li>
+        <li>Dr. Jaehyuk Cho, Jeonbuk National University, South Korea</li>
+        <li>Dr. Maria Lapina, North-Caucasus Federal University, Stavropol, Russia</li>
+        <li>Dr. Mikhail Babenko, North-Caucasus Federal University, Stavropol, Russia</li>
+        <li>Dr. Erfan Babaee Tirkolaee, Istinye University, Istanbul, Turkey</li>
+        <li>Dr. Eugene Pek Chuen Khee, Taylor's Business School, Malaysia</li>
+        <li>Dr. Sharon Goh Wei Wei, School of Computing Science, Taylor’s University, Malaysia</li>
       </ul>
     </div>
 
-    {/* ===== National ===== */}
+    {/* ===== National Advisory Committee ===== */}
     <div>
-      <h3 className="text-xl font-bold text-primary mb-6">
-        National Committee Members
+      <h3 className="text-2xl font-bold text-primary mb-6">
+        National Advisory Committee
       </h3>
 
-      <ul className="space-y-4 text-sm text-gray-700">
-        <li><b>Dr. P. Sakthivel</b> — Chairman, IEEE Madras Section</li>
-        <li><b>Dr. S. Radha</b> — Secretary, IEEE Madras Section</li>
-        <li><b>Dr. S. Brindha</b> — Treasurer, IEEE Madras Section</li>
-        <li><b>Dr. V. Nagarajan</b> — Conference Committee Member</li>
-        <li><b>Dr. N. Venkateswaran</b> — Professor, Dept. of ECE, Chennai</li>
-        <li><b>Dr. S. Raghavan</b> — Professor (HAG), NIT Trichy</li>
-        <li><b>Dr. Surajith Debnath</b> — HoD, Women's Polytechnic, Tripura</li>
-        <li><b>Dr. D. Sriram Kumar</b> — Professor, Dept. of ECE, NIT Trichy</li>
-        <li><b>Dr. Srinivas Talabattula</b> — Associate Professor, IISc Bangalore</li>
-        <li><b>Dr. Hrishikesh Venkataraman</b> — Associate Professor, IIIT Sri City</li>
-        <li><b>Dr. M.D. Selvaraj</b> — Associate Professor, IIITDM Kancheepuram</li>
-        <li><b>Dr. J. Klutto Milleth</b> — Chief Technologist, CEWIT Chennai</li>
+      <ul className="space-y-3 text-sm text-gray-700 leading-relaxed">
+        <li>Dr. P. Sakthivel, Chairman, IEEE Madras Section</li>
+        <li>Dr. S. Radha, Secretary, IEEE Madras Section</li>
+        <li>Dr. S. Brindha, Treasurer, IEEE Madras Section</li>
+        <li>Dr. V. Nagarajan, Conference Committee Member, Madras Section</li>
+        <li>Dr. Srinivas Talabattula, Associate Professor, Electrical Communication Engineering, IISc, Bangalore, India</li>
+        <li>Dr. Rahul Pandya, Assistant Professor, IIT, Dharwad</li>
+        <li>Dr. S. Swamynathan, Professor and Head, Department of Information Science and Technology, Anna University, Chennai</li>
+        <li>Dr. S. Raghavan, Professor (HAG), Retd. of ECE, NIT, Tiruchirappalli</li>
+        <li>Dr. J. Klutto Milleth, Chief Technologist, CEWIT, IIT, Chennai</li>
+        <li>Dr. D. Sriram Kumar, Professor, Dept. of ECE, NIT, Tiruchirappalli</li>
+        <li>Dr. Hrishikesh Venkataraman, Associate Professor, Department of ECE, IIIT, Sri City, Chittoor</li>
+        <li>Dr. A. Kannan, Senior Professor, School of Computer Science and Engineering, VIT University, Vellore</li>
+        <li>Dr. N. Venkateswaran, Professor, Dept. of ECE, Chairman, IETE Chennai Centre, Sri Sivasubramaniya Nadar College of Engineering, Chennai</li>
+        <li>Dr. Surajith Debnath, HoD, Dept. of Medical Laboratory Technology, Women's Polytechnic, Tripura, INDIA</li>
+        <li>Dr. M.D. Selvaraj, Associate Professor, Department of ECE, IIITDM Kancheepuram, Chennai</li>
+        <li>Dr. R. Dhanalakshmi, Head of Department, Department of CSE, IIIT, Tiruchirappalli</li>
       </ul>
     </div>
 
   </div>
-</section>
 
+</section>
 
       </section>
     </div>

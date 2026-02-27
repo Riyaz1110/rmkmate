@@ -112,14 +112,14 @@ export default function Contact() {
             </Card>
             
             <div className="bg-white p-8 rounded-2xl border shadow-sm">
-              <h3 className="font-display font-bold text-xl mb-4 text-slate-900">Conference Chair</h3>
+              <h3 className="font-display font-bold text-xl mb-4 text-slate-900">Conference Chairs</h3>
               <p className="font-medium text-primary">Dr.D.Paulraj</p>
-              <p className="font-medium text-primary">Professor - Cse Department</p>
-              <p className="text-sm text-muted-foreground mb-4">Conference Chair</p>
+              <p className="font-medium text-primary">Professor - CSE Department</p>
+              <p className="text-sm text-muted-foreground mb-4">Conference Chairs</p>
               <br/>
               <p className="font-medium text-primary">Dr.S.Neelakandan</p>
-              <p className="font-medium text-primary">Professor - Cse Department</p>
-              <p className="text-sm text-muted-foreground mb-4">Conference Chair</p>
+              <p className="font-medium text-primary">Professor - CSE Department</p>
+              <p className="text-sm text-muted-foreground mb-4">Conference Chairs</p>
               <p className="text-sm">Phone: +91 44 6790 6661</p>
               <p className="text-sm">EMail : rmkmate@rmkec.ac.in</p>
             </div>

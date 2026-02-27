@@ -17,10 +17,12 @@ export function SectionHeader({ title, subtitle, className, align = "center", li
       className
     )}>
       {subtitle && (
-        <span className={cn(
-          "uppercase tracking-widest text-xs font-bold mb-2 block",
-          light ? "text-primary-foreground/80" : "text-primary"
-        )}>
+        <span
+          className={cn(
+            "uppercase tracking-widest text-lg md:text-xl font-bold mb-3 block",
+            light ? "text-primary-foreground/90" : "text-primary"
+          )}
+        >
           {subtitle}
         </span>
       )}
