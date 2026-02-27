@@ -307,11 +307,37 @@ export default function AboutRMKEC() {
         <h2 className="text-3xl font-bold">
           Thiru. R.M. Kishore, Vice Chairman
         </h2>
+
         <hr className="my-4 border-gray-300" />
+
+        <p className="text-muted-foreground leading-relaxed text-lg mb-4">
+          Shri. R.M. Kishore is a Mechanical Engineer from the University of Madras 
+          and acquired his Master’s degree in Business Administration from the 
+          University of Huddersfield, UK. He is a young member of the team who has 
+          been managing the R.M.K. Group of Educational Institutions.
+        </p>
+
+        <p className="text-muted-foreground leading-relaxed text-lg mb-4">
+          He was elected as Syndicate Member in Anna University; Chairman of the 
+          Education and Skill Expert Committee, The Madras Chamber of Commerce and 
+          Industry (MCCI) (April 2017 – March 2022); Member of the Global Engineering 
+          Deans Council, Washington DC; and Executive Council Member of the Indian 
+          Society for Technical Education (ISTE), New Delhi.
+        </p>
+
+        <p className="text-muted-foreground leading-relaxed text-lg mb-4">
+          He is equipped with rich experience in Education Management and Industry 
+          Management. Establishment and development of infrastructure for all the 
+          group institutions stand to his credit. Our Vice Chairman is actively 
+          involved in carrying out many extension and community services.
+        </p>
+
         <p className="text-muted-foreground leading-relaxed text-lg">
-          Mechanical Engineer from University of Madras with MBA from
-          University of Huddersfield, UK. Served as Syndicate Member in
-          Anna University and Chairman of Education & Skill Expert Committee.
+          With zeal and sustained participation of the Management and the guidance 
+          provided by learned professors, the institution continues to work towards 
+          transforming learners into achievers at the global level with the right 
+          attitude towards changing societal needs and has achieved great heights 
+          in the field of technical education.
         </p>
       </div>
     </div>

@@ -99,7 +99,7 @@ export function Footer() {
             <h3 className="font-display font-semibold text-white text-lg mb-6">Important Dates</h3>
             <ul className="space-y-4 text-sm">
               <li className="flex justify-between items-center border-b border-white/10 pb-2">
-                <span className="text-slate-400">Full Paper Submission</span>
+                <span className="text-slate-400">Full Paper Submission - DeadLine</span>
                 <span className="font-medium text-white">Mar 10, 2026</span>
               </li>
               <li className="flex justify-between items-center border-b border-white/10 pb-2">
