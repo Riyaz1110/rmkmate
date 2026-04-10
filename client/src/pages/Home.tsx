@@ -288,7 +288,7 @@ export default function Home() {
 
           <SectionHeader
             title="Conference Invitation"
-            subtitle="Join us for RMKMATE'26"
+            // subtitle="Join us for RMKMATE'26"
             className="mb-16"
           />
 
