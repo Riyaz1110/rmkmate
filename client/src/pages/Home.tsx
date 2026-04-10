@@ -9,7 +9,7 @@ import heroImage from "@/assets/homepo.png";
 import poster from "@/assets/backgroundpo.png";
 import leftLogo from "@/assets/logo2.png";     // <-- Add your left logo
 import rightLogo1 from "@/assets/3oyrs.png";
-import rightLogo2 from "@/assets/IEEE1.png";   // <-- Add your right logo
+import rightLogo2 from "@/assets/ieee1.png";   // <-- Add your right logo
 import brochurePage1 from "@/assets/brochuer1.png";
 import brochurePage2 from "@/assets/brochuer2.png";
 import brochurePDF from "@/assets/RMKMATE 2026.pdf";
@@ -374,22 +374,22 @@ export default function Home() {
 
       {/* Image Modal for Fullscreen View */}
       {selectedImage && (
-        <div 
+        <div
           className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 backdrop-blur-md p-4 animate-in fade-in duration-300"
           onClick={() => setSelectedImage(null)}
         >
-          <button 
+          <button
             className="absolute top-6 right-6 text-white hover:text-red-500 bg-white/10 hover:bg-white/20 p-3 rounded-full transition-all shadow-lg backdrop-blur-sm z-[110]"
             onClick={() => setSelectedImage(null)}
           >
             <X size={28} />
           </button>
-          
-          <img 
-            src={selectedImage} 
-            alt="Expanded presentation" 
+
+          <img
+            src={selectedImage}
+            alt="Expanded presentation"
             className="max-w-full max-h-[92vh] object-contain rounded-xl shadow-2xl"
-            onClick={(e) => e.stopPropagation()} 
+            onClick={(e) => e.stopPropagation()}
           />
         </div>
       )}
