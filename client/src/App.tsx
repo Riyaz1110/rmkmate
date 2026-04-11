@@ -34,7 +34,7 @@ function Router() {
           <Route path="/schedule" component={Schedule} />
           <Route path="/venue" component={Venue} />
           <Route path="/transportation" component={Transportation} />
-          
+
           <Route path="/rmkmate23" component={RMKMATE23} />
           <Route path="/rmkmate25" component={RMKMATE25} />
 

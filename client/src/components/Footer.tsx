@@ -9,23 +9,23 @@ export function Footer() {
           {/* About */}
           <div>
             <Link href="/">
-          <div className="flex items-center gap-3 cursor-pointer group">
-            <img
-              src={logo}
-              alt="RMKMATE26 Logo"
-              className="h-10 w-10 object-contain group-hover:scale-105 transition-transform"
-            />
+              <div className="flex items-center gap-3 cursor-pointer group">
+                <img
+                  src={logo}
+                  alt="RMKMATE26 Logo"
+                  className="h-10 w-10 object-contain group-hover:scale-105 transition-transform"
+                />
 
-            <div className="flex flex-col">
-              <span className="font-display font-bold text-lg group-hover:text-primary">
-                RMKMATE'26
-              </span>
-              <span className="text-xs text-muted-foreground uppercase tracking-wider">
-                IEEE Conference
-              </span>
-            </div>
-          </div>
-        </Link>
+                <div className="flex flex-col">
+                  <span className="font-display font-bold text-lg group-hover:text-primary">
+                    RMKMATE'26
+                  </span>
+                  <span className="text-xs text-muted-foreground uppercase tracking-wider">
+                    IEEE Conference
+                  </span>
+                </div>
+              </div>
+            </Link>
             <p className="text-sm leading-relaxed text-slate-400 mb-6">
               RMKMATE is an international academic conference dedicated to advancing research, innovation, and collaboration in the fields of Artificial Intelligence (AI), Knowledge Management, Intelligent Systems, and Telecommunication Engineering.
             </p>
@@ -119,7 +119,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
-          <p>© 2026 RMKMATE2026. All rights reserved.</p>
+          <p>© 2026 RMKMATE26 | Designed & Maintained By Department Of CSE</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
